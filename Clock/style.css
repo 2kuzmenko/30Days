@@ -1,0 +1,36 @@
+body {
+	background-color: aliceblue;
+}
+
+.clock {
+	height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 4px solid #555;
+	margin: 0 auto;
+	position: relative;
+}
+
+.line {
+	height: 3px;
+	width: 50%;
+	border: 2px solid #555;
+	border-radius: 2px;
+	position: absolute;
+	right:50%;
+	top:50%;
+	transform-origin: 100%;
+	transform: rotate(90deg);
+}
+
+.hour {
+	border: 2px solid red;
+}
+
+.second {
+	border: 2px solid rgb(61, 134, 112);
+}
+
+.minute{
+	border: 2px solid rgb(124, 89, 180);
+}
