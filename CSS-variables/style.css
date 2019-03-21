@@ -1,0 +1,22 @@
+:root {
+	--base:#ffc600;
+	--spacing: 10px;
+	--blur: 10px;
+}
+.controls {
+	margin: 0 auto;
+	padding: 10px;
+	display: flex;
+    flex-direction: column;
+}
+
+input {
+	width: 100px;
+}
+
+.image {
+	padding: var(--spacing);
+	background-color: var(--base);
+	filter: blur(var(--blur));
+	box-sizing: border-box;
+}
